@@ -10,10 +10,10 @@ export default function Pagina({ titulo, children }) {
       {/* Barra de Navegação */}
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">Início</Navbar.Brand>
+          <Navbar.Brand href="/">início</Navbar.Brand>
           <Nav className="me-auto">
             <NavDropdown title="Formulário" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/formularios/nome">Formulário para cadastro</NavDropdown.Item>
+              <NavDropdown.Item href="/">Formulário para cadastro</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Container>
